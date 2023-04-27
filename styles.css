@@ -1,0 +1,15 @@
+form.form {
+    display: table;
+}
+
+div.form {
+    display: table-row;
+}
+label,
+input {
+    display: table-cell;
+}
+
+.picture {
+    background-image: url("img/mountains.jpg");
+}
