@@ -10,6 +10,6 @@ input {
     display: table-cell;
 }
 
-.picture {
+.hero-pic {
     background-image: url("img/mountains.jpg");
 }
