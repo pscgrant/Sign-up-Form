@@ -12,6 +12,37 @@ html body {
     margin: 0px;
 }
 
+.main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.hero-pic {
+    flex-grow: 1;
+    position: relative;
+    width: 60vw;
+    min-width: 345px;
+    height: 100vh;
+    background: url("img/mountains.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0,0.527);
+    line-height: 2rem;
+    padding: 0px 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 
 
 
@@ -27,8 +58,4 @@ div.form {
 label,
 input {
     display: table-cell;
-}
-
-.hero-pic {
-    background-image: url("img/mountains.jpg");
 }
