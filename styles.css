@@ -85,3 +85,30 @@ form {
     gap: 1rem;
     font-size: 1rem;
 }
+
+label {
+    position: relative;
+    width: 15rem;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(173, 73, 173);
+}
+
+.submit-section {
+    margin-top: 2 rem;
+}
+
+button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(173, 73, 173);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+}
+
