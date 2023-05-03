@@ -1,0 +1,81 @@
+:root {
+    --color: blue;
+    --txt: rgb(185,185,185)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.main,
+.logo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.hero-pic {
+    background-image: url(img/mountains.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 40vw;
+}
+
+.logo {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 20vh;
+    gap: 1vw;
+    padding: 15px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+}
+
+
+.form-section {
+    width: 60vw;
+    background-color: #D3D3D3;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+.right {
+    padding-left: 3vw;
+}
+
+.title-text {
+    font-weight: 500;
+    width: 90%;
+    font-size: 1.2rem;
+}
+
+.form {
+    background-color: #adadad;
+    box-shadow: 0 10px 20px -20x rgb(22, 22, 22);
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: .7rem;
+}
