@@ -79,3 +79,20 @@ h1 {
     width: 40%;
     font-size: .7rem;
 }
+
+.form-title {
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+input {
+    background-color: #D3D3D3;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid var(--color);
+}
