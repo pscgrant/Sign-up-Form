@@ -1,6 +1,6 @@
 :root {
     --color: #617A55;
-    --txt: rgb(185,185,185)
+    --txt: rgb(0,0,0)
 }
 
 * {
@@ -8,6 +8,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: var(--txt);
 }
 
 .main {
@@ -48,6 +49,7 @@
 
 h1 {
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
