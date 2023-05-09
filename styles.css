@@ -7,7 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: ;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .main {
@@ -67,6 +67,10 @@ h1 {
     font-weight: 500;
     width: 90%;
     font-size: 1.2rem;
+}
+
+.entice-text {
+    margin: 40px 0 80px;
 }
 
 .form {
